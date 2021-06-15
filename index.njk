@@ -4,11 +4,31 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+<div class="container jumbotron main-text">
+  <h1>Hello There!</h1>
+  <p>Welcome to my blog.</p>
+  This blog is used to document my completed and ongoing projects.
+  <hr class="my-4"></hr>
+  <p>If you would like to visit my GitHub portfolio, please click the button below.</p>
+  <a class="btn  btn-lg btnGit" href="https://github.com/CalGrimes1/" role="button">Visit GitHub portfolio</a>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <h4>Hi, I'm Cal Grimes...</h4>
+      <p>I am a student Software Enigneer studying at Liverpool John Moores University.</p>
+      <p>This blog is a live project while I'm on the JAMstack bootcamp and is used to evidence my completed tasks and any extra learning that I will undertake throughout the course, Technologies user on this course are: <b>HTML, CSS, JavaScript, CMS, Bootstrap, Eleventy, Nunjucks and Markdown.</b>
+      </p>
+    </div>
+    <div class="col-md">
+      {% set maxPosts = collections.posts.length | min(3) %}
+      <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+      {% set postslist = collections.posts | head(-3) %}
+      {% set postslistCounter = collections.posts | length %}
+      {% include "postslist.njk" %}
+      <p>More posts can be found in <b><a href="{{ '/posts/' | url }}">the archive</a></b>.</p>
+    </div>
+  </div>
+</div>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

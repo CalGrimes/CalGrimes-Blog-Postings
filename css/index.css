@@ -6,7 +6,7 @@
   --navy: #17050F;
   --silvergrey: #c0c0c0;
   --white: #fff;
-  --dustyrose: #C28285;
+  --lightrose: #ec8282;
   --softorange: #DCAE96;
   --black: #17050F;
 }
@@ -56,9 +56,10 @@ main {
     margin-top: 0;
   }
 
-  main > .container {
-    background-color: var(--dustyrose);
-  }
+
+.jumbotron {
+  background-color: var(--lightrose);
+}
 
 header {
 }
@@ -143,9 +144,7 @@ code {
 }
 
 /* Header */
-.container {
-  background-color: var(--softorange);
-}
+
 
 header {
   background-color: var(--softorange);
@@ -333,3 +332,4 @@ a[href].btnGit:focus {
   background-color: var(--darkgray);
   color: white;
 }
+

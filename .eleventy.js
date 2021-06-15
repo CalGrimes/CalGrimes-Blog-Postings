@@ -17,6 +17,7 @@ module.exports = function(eleventyConfig) {
 
   // Alias `layout: post` to `layout: layouts/post.njk`
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("news", "layouts/news.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -43,7 +44,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", tags => {
     // should match the list in tags.njk
-    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["all", "nav", "post", "posts", "news"].indexOf(tag) === -1);
   })
 
   // Create an array of all tags

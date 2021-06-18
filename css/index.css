@@ -4,7 +4,6 @@
   --gray: #C0C0C0;
   --darkgray: #333;
   --navy: #17050F;
-  --silvergrey: #c0c0c0;
   --white: #fff;
   --lightrose: #ec8282;
   --softorange: #DCAE96;
@@ -41,12 +40,13 @@ p,
 }
 
 a[href] {
-  color: black;
+  color: var(--navy);
 }
 
-  a[href]:visited {
-    color: var(--navy);
-  }
+a[href].btnGit {
+    color:white;
+    background-color: var(--darkgray);
+}
 
 main {
   padding: 1rem;
@@ -181,6 +181,8 @@ header {
   text-decoration: underline;
 }
 
+
+
 /* Footer */
 footer > .container {
   background-color: var(--softorange);
@@ -226,6 +228,7 @@ footer > .container {
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
+  color: var(--black);
 }
 
 .postlist-item-active .postlist-link {
@@ -240,18 +243,46 @@ footer > .container {
 
 /* Tags */
 .post-tag {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   text-transform: uppercase;
-  font-size: 0.6875em; /* 11px /16 */
-  padding: 0.09090909090909em 0.3636363636364em; /* 1px 4px /11 */
-  margin-left: 0.8em; /* 8px /10 */
-  border: 1px solid var(--gray);
-  border-radius: 0.25em; /* 3px /12 */
+  font-size: 0.625em; /* 10px /16 */
+  padding: 6px 6px;
+  margin-bottom: 0.5em;
+  background-color: var(--lightrose);
+  color: var(--white);
+  border-radius: 0.4em;
   text-decoration: none;
-  line-height: 1.8;
-  background-color: var(--silvergrey);
+  transition: 1s;
+}
+
+  .post-tag:hover {
+    text-decoration: none;
+    background-color: var(--darkgray);
+    transition: 1s;
+  }
+
+.news-tag {
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.625em; /* 10px /16 */
+  padding: 6px 6px;
+  margin-bottom: 0.5em;
+  background-color: var(--lightrose);
+  border-radius: 0.4em;
+  text-decoration: none;
+  transition: 1s;
+}
+
+  .news-tag:hover {
+    text-decoration: none;
+    background-color: var(--lightrose);
+    transition: 1s;
+  }
+
+a[href].post-tag,
+a[href].post-tag:visited {
+  color: #fff;
 }
 
 a[href].post-tag,
@@ -302,21 +333,7 @@ a[href].direct-link:visited {
   font-size: 18px;
 }
 
-.btnGit {
-  background-color: var(--silvergrey);
-}
-
-a[href].btnGit:hover,
-a[href].btnGit:focus {
-  background-color: var(--lightgray);
-}
-
-/* Forms */
-.form-control {
-  background-color: #dbf5f7;
-  border: black solid 2px;
-  transition: 0.4s;
-}
+/* contact page form */
 
 .form-signin {
   width: 100%;
@@ -325,11 +342,115 @@ a[href].btnGit:focus {
   margin: 30px auto;
 }
 
-.form-control button {
-  border: 2px solid var(--darkgray);
-  width: 100%;
-  padding: 5px;
-  background-color: var(--darkgray);
-  color: white;
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  }
+
+/* Type */
+.main-text {
+  font-size: 18px;
 }
 
+/* contact page form */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 30px auto;
+}
+
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+    .form-signin .form-control:focus {
+      z-index: 2;
+    }
+
+.top-contact-form-input {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle-contact-form-input {
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+
+.bottom-contact-form-input {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* javascript forms */
+.form-control {
+  background-color: var(--lightrose);
+  border: black solid 2px;
+  transition: 0.4s;
+  color: var(--darkgray);
+}
+
+  .form-control input {
+    background-color: white;
+  }
+
+  .form-control textarea {
+    background-color: white;
+  }
+
+  .form-control:hover {
+    box-shadow: 0 0px 20px black;
+  }
+
+  .form-control label input {
+    border: 1px solid var(--darkgray);
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+
+    .form-control label input.success {
+      border: 2px solid rgb(1, 211, 1);
+      box-shadow: 0 0px 7px rgb(1, 211, 1);
+    }
+
+    .form-control label input.error {
+      border: 2px solid red;
+      box-shadow: 0 0px 7px red;
+    }
+
+  .form-control button {
+    border: 2px solid var(--darkgray);
+    width: 100%;
+    padding: 5px;
+    background-color: var(--darkgray);
+    color: white;
+  }
+
+    .form-control button:hover {
+      background-color: white;
+      color: var(--darkgray);
+      box-shadow: 0 0px 30px var(--darkgray);
+    }
+/* Countdown timer */
+.timer {
+  display: flex;
+}
+
+.countdown-el {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}

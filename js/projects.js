@@ -1,10 +1,6 @@
 // Index
 // LIVE ON WEBSITE
 // 1. Tip Calculate
-// 2. Form Validation
-// 3. Simple form
-// 4. Simple calculator 1
-// 5. Countdown Timer
 
 //1. Tip Calculate starts here
 function calculateTip() {

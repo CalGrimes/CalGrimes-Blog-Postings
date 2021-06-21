@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\js",
     "\\projects",
-    "\\_includes",
-    "\\_includes\\layouts"
+    "\\_data",
+    "\\_includes"
   ],
-  "SelectedNode": "\\index.njk",
   "PreviewInSolutionExplorer": false
 }

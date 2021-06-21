@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Projects
   order: 2
 ---
+
 <!-- JavaScript Projects starts here -->
 <div class="text-center">
   <h1>JavaScript Projects</h1>

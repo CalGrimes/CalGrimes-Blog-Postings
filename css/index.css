@@ -5,8 +5,8 @@
   --darkgray: #333;
   --navy: #17050F;
   --white: #fff;
-  --lightrose: #ec8282;
-  --softorange: #DCAE96;
+  --lightleafygreen: #bcd1cf;
+  --leafygreen: #64a19d;
   --black: #17050F;
 }
 
@@ -58,7 +58,7 @@ main {
 
 
 .jumbotron {
-  background-color: var(--lightrose);
+  background-color: var(--lightleafygreen);
 }
 
 header {
@@ -147,7 +147,7 @@ code {
 
 
 header {
-  background-color: var(--softorange);
+  background-color: var(--leafygreen);
 }
 
 .home {
@@ -168,7 +168,7 @@ header {
   float: left;
   margin-left: 1em;
   cursor: pointer;
-  background-color: var(--softorange);
+  background-color: var(--leafygreen);
 }
 
 .nav-item {
@@ -183,9 +183,10 @@ header {
 
 
 
+
 /* Footer */
 footer > .container {
-  background-color: var(--softorange);
+  background-color: var(--leafygreen);
   text-align: center;
   padding: 28px;
 }
@@ -248,7 +249,7 @@ footer > .container {
   font-size: 0.625em; /* 10px /16 */
   padding: 6px 6px;
   margin-bottom: 0.5em;
-  background-color: var(--lightrose);
+  background-color: var(--darkgray);
   color: var(--white);
   border-radius: 0.4em;
   text-decoration: none;
@@ -268,7 +269,7 @@ footer > .container {
   font-size: 0.625em; /* 10px /16 */
   padding: 6px 6px;
   margin-bottom: 0.5em;
-  background-color: var(--lightrose);
+  background-color: var(--lightleafygreen);
   border-radius: 0.4em;
   text-decoration: none;
   transition: 1s;
@@ -276,7 +277,7 @@ footer > .container {
 
   .news-tag:hover {
     text-decoration: none;
-    background-color: var(--lightrose);
+    background-color: var(--lightleafygreen);
     transition: 1s;
   }
 
@@ -393,9 +394,13 @@ a[href].direct-link:visited {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+/* news */
+.news-img {
+    width:100%;
+}
 /* javascript forms */
 .form-control {
-  background-color: var(--lightrose);
+  background-color: var(--lightleafygreen);
   border: black solid 2px;
   transition: 0.4s;
   color: var(--darkgray);

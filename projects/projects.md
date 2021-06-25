@@ -44,7 +44,26 @@ eleventyNavigation:
       </div>
     </form>
   </div>
-</div>
 <!-- Tip Calculator Ends here -->
+  <div class="col-lg-4">
+    <form class="form-control form-signin">
+    <h2>ISBN Verifier</h2>
+    <p>Enter an ISBN-10 numeric identifier including a final check digit at the end.</p>
+      <hr>
+      <label>ISBN Identifier
+      <br>Example: 3-598-21508-8
+      <span class="inline">
+      <input id="isbnNo" type="text" maxlength= "13" placeholder="ISBN Identifier">
+      </span>
+      </label>
+      <button class="btn" type="button" id="verify">Verify!</button>
+      <div id="validityDisplay">
+        <h5 id="valid">Invalid</h5>
+      </div>
+    </form>
+  </div>
+</div>
+
 <!-- JavaScript Projects ends here -->
+
 <script src="/js/projects.js"></script>

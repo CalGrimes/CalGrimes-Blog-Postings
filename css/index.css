@@ -198,14 +198,6 @@ footer > .container {
   padding: 0;
 }
 
-.postlist-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  counter-increment: start-from -1;
-  line-height: 1.8;
-}
-
   .postlist-item:before {
     display: inline-block;
     pointer-events: none;
@@ -296,9 +288,6 @@ a[href].post-tag:visited {
     background-color: var(--lightgray);
   }
 
-.postlist-item > .post-tag {
-  align-self: center;
-}
 
 /* Warning */
 .warning {
@@ -335,6 +324,7 @@ a[href].direct-link:visited {
   font-size: 18px;
 }
 
+
 /* contact page form */
 
 .form-signin {
@@ -349,10 +339,6 @@ a[href].direct-link:visited {
   }
   }
 
-/* Type */
-.main-text {
-  font-size: 18px;
-}
 
 /* contact page form */
 
@@ -450,6 +436,9 @@ a[href].direct-link:visited {
       color: var(--darkgray);
       box-shadow: 0 0px 30px var(--darkgray);
     }
+#isbnNo{
+    width: 100%;
+}
 /* Countdown timer */
 .timer {
   display: flex;

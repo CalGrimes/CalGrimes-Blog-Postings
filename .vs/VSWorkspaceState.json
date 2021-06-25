@@ -3,8 +3,9 @@
     "",
     "\\js",
     "\\projects",
-    "\\_data",
-    "\\_includes"
+    "\\_includes",
+    "\\_includes\\layouts"
   ],
+  "SelectedNode": "\\_includes\\layouts\\base.njk",
   "PreviewInSolutionExplorer": false
 }

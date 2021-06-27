@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\js",
+    "\\posts",
     "\\projects",
     "\\_includes",
     "\\_includes\\layouts"
   ],
-  "SelectedNode": "\\_includes\\layouts\\base.njk",
+  "SelectedNode": "\\_includes\\postslist.njk",
   "PreviewInSolutionExplorer": false
 }

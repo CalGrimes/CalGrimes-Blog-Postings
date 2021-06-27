@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\js",
+    "\\css",
     "\\posts",
-    "\\projects",
     "\\_includes",
     "\\_includes\\layouts"
   ],
-  "SelectedNode": "\\_includes\\postslist.njk",
+  "SelectedNode": "\\css\\index.css",
   "PreviewInSolutionExplorer": false
 }

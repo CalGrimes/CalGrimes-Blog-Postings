@@ -198,6 +198,10 @@ footer > .container {
   padding: 0;
 }
 
+.postlist-item {
+  counter-increment: start-from -1;
+}
+
   .postlist-item:before {
     display: inline-block;
     pointer-events: none;

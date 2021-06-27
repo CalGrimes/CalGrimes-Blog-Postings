@@ -17,7 +17,7 @@ eleventyNavigation:
       <h2 class="h2 mb-3 font-weight-normal">Cal Grimes</h2>
       <br>
       <h4 class="h4 mb-3 font-weight-normal">Email Address</h4>
-      <p>calgrimes29@gmai.com</p>
+      <p>calgrimes29@gmail.com</p>
       <br>
       <h4 class="h4 mb-3 font-weight-normal">Phone Number</h4>
       <p>07984 594 001</p>

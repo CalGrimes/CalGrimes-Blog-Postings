@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\posts",
-    "\\_includes",
-    "\\_includes\\layouts"
+    "\\posts"
   ],
-  "SelectedNode": "\\css\\index.css",
+  "SelectedNode": "\\posts\\form-processing.md",
   "PreviewInSolutionExplorer": false
 }

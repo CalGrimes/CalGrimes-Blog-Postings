@@ -1,3 +1,4 @@
+---
 layout: layouts/post.njk
 title: Static Site Generators
 description: This post shows the deployment of JAMstack, 11ty and netlify solution

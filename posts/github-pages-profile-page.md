@@ -4,7 +4,7 @@ title: GitHub pages Profile page
 description: The creation of my GitHub single page profile site
 tags:
   - github
-  - html
+  - HTML
 date: 2021-06-21T13:24:53.245Z
 thumbnail: /images/uploads/githubprofilepage.png
 ---

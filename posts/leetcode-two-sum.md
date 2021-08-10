@@ -16,10 +16,20 @@ Problem answer #1:
 
 ![Initial answer to the Two Sum coding problem](/images/uploads/leetcode-two-sum-initial-answer.png)
 
-This solution has a time complexity of O(n^2) and a space complexity of O(1)
+This solution has a time complexity of O(n^2) and a space complexity of O(1).
+
+Runtime: **344 ms**
+
+Memory Usage: **10.1 MB**
+
+
 
 Improved solution:
 
 ![Final answer to the Two Sum coding problem](/images/uploads/leetcode-two-sum-best-answer.png)
 
-This solution has a time complexity of O(n) and a space complexity of O(n)
+This solution has a time complexity of O(n) and a space complexity of O(n).
+
+Runtime: **12 ms**
+
+Memory Usage: **11.2 MB**

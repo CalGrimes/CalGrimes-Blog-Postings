@@ -6,7 +6,7 @@ tags:
   - LeetCode
   - C++
 date: 2021-08-10T17:11:44.051Z
-thumbnail: /images/uploads/leetcode-two-sum.png
+thumbnail: /images/uploads/leetcode-two-sum-best-answer.png
 ---
 Problem Description: 
 
@@ -14,12 +14,12 @@ Problem Description:
 
 Problem answer #1:
 
-![Initial answer to the Two Sum coding problem](/images/uploads/leetcode-two-sum-answer-1.png)
+![Initial answer to the Two Sum coding problem](/images/uploads/leetcode-two-sum-initial-answer.png)
 
 This solution has a time complexity of O(n^2) and a space complexity of O(1)
 
 Improved solution:
 
-![Final answer to the Two Sum coding problem](/images/uploads/leetcode-two-sum.png)
+![Final answer to the Two Sum coding problem](/images/uploads/leetcode-two-sum-best-answer.png)
 
 This solution has a time complexity of O(n) and a space complexity of O(n)

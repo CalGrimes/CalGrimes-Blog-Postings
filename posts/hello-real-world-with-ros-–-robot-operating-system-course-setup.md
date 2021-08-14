@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Hello (Real) World with ROS – Robot Operating System Course Setup
+title: Hello (Real) World with ROS - Robot Operating System Course Setup
 description: Course Command Shell (CCS) Setup. As well as learning ROS Node,
   Topics and Application Types.
 tags:

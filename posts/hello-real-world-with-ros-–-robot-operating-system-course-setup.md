@@ -6,7 +6,7 @@ description: Course Command Shell (CCS) Setup. As well as learning ROS Node,
 tags:
   - ROS
   - Ubuntu
-date: 2021-08-13T17:11:45.670Z
+date: 2021-08-14T17:26:56.733Z
 thumbnail: /images/uploads/beginning-of-week1.png
 ---
 On my first day enrolling on this course from edX. I initially ran through some Course Setup which entailed:

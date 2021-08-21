@@ -18,7 +18,7 @@ Ultrasound example with publisher node code:
 
 ![](/images/uploads/sensorinformationpublishernodewithlog.png)
 
-#  **Assignment 1:**
+# **Assignment 1:**
 
 ![](/images/uploads/assignment1-task.png)
 
@@ -38,4 +38,4 @@ Also utilises SensorInformation.msg and the sensor_publisher.py:
 
 ![SensorInformation.msg](/images/uploads/sensorinformationmsg.png)
 
-![](/images/uploads/sensorpublisher.png)
+![](/images/uploads/sensorpublisher.png "sensor_publisher.py")

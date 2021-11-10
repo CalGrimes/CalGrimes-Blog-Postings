@@ -5,7 +5,7 @@ description: Week1 learning contents + Assignment1
 tags:
   - ROS
   - Ubuntu
-date: 2021-08-20T14:30:23.553Z
+date: 2021-10-16T14:30:23.553Z
 thumbnail: /images/uploads/rosrun-assignment1.png
 ---
 ROS Message Types Learning Content:

@@ -8,6 +8,7 @@ tags:
   - Bootstrap 4
   - Form
   - Contact
+  - JAMStack
 date: 2021-06-27T15:24:28.974Z
 thumbnail: /images/uploads/contactform.png
 ---

@@ -7,6 +7,7 @@ tags:
   - 11ty
   - Netlify
   - Static Site Generators
+  - JAMStack
 date: 2021-06-27T15:14:12.473Z
 thumbnail: /images/uploads/staticsitegenerator.png
 ---

@@ -22,12 +22,15 @@ eleventyNavigation:
       <p>I am a student Software Enigneer studying at Liverpool John Moores University.</p>
       <p>This blog is a project that I have coded during my JAMstack bootcamp. The content is product of the tasks I have completed throughout the course, Technologies used on this course are: <b>HTML, CSS, JavaScript, CMS, Bootstrap, Eleventy, Nunjucks and Markdown.</b>
       </p>
+      <p>
+      I will also be documenting other work and projects that I am doing on the blog archive page.
+      </p>
       You are welcome to visit my GitHub profile <a href="https://github.com/CalGrimes1"><b>HERE</b></a>
     </div>
     <div class="col-md">
       {% set maxPosts = collections.posts.length | min(3) %}
       <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
-      {% set postslist = collections.posts | head(-3) %}
+      {% set postslist = collections.posts | head(-6) %}
       {% set postslistCounter = collections.posts | length %}
       {% include "postslist.njk" %}
       <p>More posts can be found in <b><a href="{{ '/posts/' | url }}">the archive</a></b>.</p>

@@ -8,7 +8,7 @@ tags:
 date: 2021-10-19T14:02:54.835Z
 thumbnail: /images/uploads/image0.jpeg
 ---
-URDF Theory
+# URDF Theory
 
 ![](/images/uploads/week2-urdf-page1.png)
 
@@ -24,7 +24,7 @@ Adding a pedestal to pre-made robot environment
 
 ![pedestol visualised](/images/uploads/adding-a-pedestal-to-enviroment.png)
 
-Make a robot tutorial:
+# **Make a robot tutorial:**
 
 Import robot model definition
 
@@ -45,3 +45,41 @@ Updating the orientation to appear in the correct location in the ROS environmen
 Complete robot on the blue pedestal
 
 ![](/images/uploads/makerobot-complete.png)
+
+# Assignment 1
+
+Assignment 1 Description
+
+![](/images/uploads/week2-assignment1.png)
+
+Completed Code
+
+![](/images/uploads/assignment1-bin.png)
+
+Bin Visualised (left side of image)
+
+![](/images/uploads/assinment1-box.png)
+
+# Assignment 2
+
+Assignment 2 Description
+
+![](/images/uploads/week2assiment2.png)
+
+Completed Code
+
+![](/images/uploads/assiment2code.png)
+
+# Assignment 3
+
+Assignment 3 Description
+
+![](/images/uploads/assignment3-description.png)
+
+Completed Code
+
+![](/images/uploads/assignment3-code.png)
+
+Assignment 3 Visualised
+
+![](/images/uploads/assingment3-visualized.png)

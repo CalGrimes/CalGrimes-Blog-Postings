@@ -16,11 +16,11 @@ ROS Message Types Learning Content:
 
 Ultrasound example with publisher node code:
 
-![](/images/uploads/sensorinformationpublishernodewithlog.png)
+![sensor_info code and topic publishing](/images/uploads/sensorinformationpublishernodewithlog.png)
 
 # **Assignment 1:**
 
-![](/images/uploads/assignment1-task.png)
+![Assignment 1 Details](/images/uploads/assignment1-task.png)
 
 Assignment1 uncompleted python file code:
 
@@ -38,4 +38,4 @@ Also utilises SensorInformation.msg and the sensor_publisher.py:
 
 ![SensorInformation.msg](/images/uploads/sensorinformationmsg.png)
 
-![](/images/uploads/sensorpublisher.png "sensor_publisher.py")
+![](/images/uploads/sensorpublisher.png "sensor_publisher.py file")

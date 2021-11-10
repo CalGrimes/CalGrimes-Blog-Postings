@@ -8,6 +8,7 @@ tags:
   - JavaScript
   - JAMStack
   - Form
+  - JAMStack
 date: 2021-06-27T15:36:55.806Z
 thumbnail: /images/uploads/javascriptprojects.png
 ---

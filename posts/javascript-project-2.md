@@ -4,6 +4,7 @@ title: "JavaScript Project #2"
 description: ISBN Verifier
 tags:
   - JavaScript
+  - JAMStack
 date: 2021-06-27T09:48:34.865Z
 thumbnail: /images/uploads/isbnverifier.png
 ---

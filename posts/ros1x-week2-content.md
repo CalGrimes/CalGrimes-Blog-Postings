@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: ROS1x Week2 Content
+title: ROS1x Week2 Content + Assignments 1-3
 description: Week2 - Build Your Own ROS Environment
 tags:
   - ROS

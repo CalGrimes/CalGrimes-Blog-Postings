@@ -4,6 +4,7 @@ title: "JavaScript Project #1 "
 description: Tip Calculator
 tags:
   - JavaScript
+  - JAMStack
 date: 2021-06-27T09:39:11.568Z
 thumbnail: /images/uploads/tipcalc.png
 ---

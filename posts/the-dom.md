@@ -6,6 +6,7 @@ tags:
   - The DOM
   - HTML
   - Form
+  - JAMStack
 date: 2021-06-27T15:43:17.281Z
 thumbnail: /images/uploads/displaystylecode.png
 ---
